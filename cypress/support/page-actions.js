@@ -1,3 +1,5 @@
+//good to rename it to shared
+
 // Navigate to page from the top-menu
 Cypress.Commands.add("navigateTo", (page) => {
   cy.get(".top-menu").contains(page).click()

@@ -1,11 +1,8 @@
-import { urls } from "../../page-urls"
-
 describe("home page", () => {
   beforeEach(() => {
-    cy.visit(urls.homePage)
+    cy.visit("/")
   })
 
-  //navigation from the top-menu and header check
   it("navigation from the top-menu", () => {
     const pages = [
       "Books",
@@ -17,14 +14,12 @@ describe("home page", () => {
       "Gift Cards",
     ]
 
-    //loop throug the pages
     pages.forEach((page) => {
       cy.navigateTo(page)
       cy.checkPageHeader(page)
     })
   })
 
-  //login and logout check
   it("login and logout ", () => {
     //email and password from credentials.json
     cy.fixture("credentials.json").then((credentials) => {
