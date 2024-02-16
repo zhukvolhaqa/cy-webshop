@@ -20,4 +20,9 @@ describe("giftcard page", () => {
     cy.openShoppingCart() //open Shopping cart
     cy.removeProductFromCart(cardTitle) //remove card
   })
+
+  //sorting check
+  it("sort by Price: Low to High", () => {
+    cy.sortByPriceLowToHigh()
+  })
 })

@@ -3,5 +3,9 @@
     "cypress": "^13.6.4",
     "force": "^0.0.3",
     "prettier": "^3.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhukvolhaqa/cy-webshop.git"
   }
 }
