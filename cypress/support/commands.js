@@ -10,7 +10,5 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-import './login'
-import './page-actions'
-import './shopping-cart'
+
 
