@@ -15,8 +15,9 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import './shared'
 import './login'
-import './page-actions'
+//import './page-actions'
 import './shopping-cart'
 
 // Alternatively you can use CommonJS syntax:
