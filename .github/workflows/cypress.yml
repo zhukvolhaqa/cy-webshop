@@ -28,8 +28,7 @@ jobs:
       - name: Run Cypress tests
         uses: cypress-io/github-action@v6
         with:
-        start: cypress run --record --key 386e9b60-4925-465f-9e6e-3d8909936622
-          record: true
+          start: cypress run --record --key 386e9b60-4925-465f-9e6e-3d8909936622
           parallel: true
 
         env:
