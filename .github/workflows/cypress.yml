@@ -30,3 +30,8 @@ jobs:
         with:
           record: true
           parallel: true
+
+        env:
+        CYPRESS_RECORD_KEY: 386e9b60-4925-465f-9e6e-3d8909936622
+        
+        
