@@ -23,7 +23,7 @@ jobs:
           # wait-on: 'http://localhost:3000' # Waits for above
           # Records to Cypress Cloud 
           # https://docs.cypress.io/guides/cloud/projects#Set-up-a-project-to-record
-          run: npm run cypress:run
+          run: npm cypress run --record --key 386e9b60-4925-465f-9e6e-3d8909936622 --parallel --ci-build-id 2
           record: true
           parallel: true # Runs test in parallel using settings above
         env:
