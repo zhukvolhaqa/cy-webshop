@@ -17,7 +17,6 @@
 import './commands'
 import './shared'
 import './login'
-//import './page-actions'
 import './shopping-cart'
 
 // Alternatively you can use CommonJS syntax:
