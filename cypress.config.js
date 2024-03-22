@@ -1,7 +1,7 @@
 const { defineConfig } = require("cypress")
 
 module.exports = defineConfig({
-  // projectId: "shaoem", //npx cypress run --record --key 360a2006-3b62-4135-890b-3b598b8a652e
+  projectId: 'whtznu', // npx cypress run --record --key 386e9b60-4925-465f-9e6e-3d8909936622  
   e2e: {
     baseUrl: "https://demowebshop.tricentis.com/", //home page
     setupNodeEvents(on, config) {
