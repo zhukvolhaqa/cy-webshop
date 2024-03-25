@@ -27,10 +27,10 @@ jobs:
     - run: npm install
 
     - name: Run Cypress tests
-      uses: cypress-io/github-action@v2
+      uses: cypress-io/github-action@v6
       with:
         record: true
         parallel: true
         group: 'Github Actions'
-        start: npm run cypress:run  # Adjust the script name according to your project
+        start: npm run cy:cloud_run  # Adjust the script name according to your project
         wait-on: 'https://demowebshop.tricentis.com/'  # Adjust the URL to match your application
