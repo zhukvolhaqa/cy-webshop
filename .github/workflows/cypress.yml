@@ -32,5 +32,5 @@ jobs:
         record: true
         parallel: true
         group: 'Github Actions'
-        start: npm run cy:cloud_run_key  # Adjust the script name according to your project
+        start: npm run cy:cloud_run_git  # Adjust the script name according to your project
         wait-on: 'https://demowebshop.tricentis.com/'  # Adjust the URL to match your application
