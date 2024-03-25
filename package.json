@@ -9,6 +9,7 @@
     "url": "https://github.com/zhukvolhaqa/cy-webshop.git"
   },
   "scripts": {
+    "cy:run": "cypress run --config-file=cypress.config.js",
     "cypress:run": "cypress run",
     "cy:cloud_run": "npx cypress run --record --key 386e9b60-4925-465f-9e6e-3d8909936622",
     "cy:cloud_parallel": "npx cypress run --record --key 386e9b60-4925-465f-9e6e-3d8909936622 --parallel --ci-build-id 2",
