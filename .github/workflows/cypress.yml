@@ -14,7 +14,9 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        # node-version: [14.x]
+        # run copies of the current job in parallel
+        containers: [1, 2, 3]
 
     steps:
     - uses: actions/checkout@v4
