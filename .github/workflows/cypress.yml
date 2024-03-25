@@ -34,4 +34,6 @@ jobs:
         group: 'Github Actions'
         start: npm run cy:cloud_run # Adjust the script name according to your project
         wait-on: 'https://demowebshop.tricentis.com/'  # Adjust the URL to match your application
-        record-key: ${{ secrets.CYPRESS_RECORD_KEY }}  # Cloud record key stored in GitHub Secrets
+      env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+
