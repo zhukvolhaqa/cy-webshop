@@ -26,8 +26,6 @@ jobs:
 
     - run: npm install
 
-    - run: npm run build
-
     - name: Run Cypress tests
       uses: cypress-io/github-action@v2
       with:
@@ -38,3 +36,4 @@ jobs:
         start: npm run start  # Command to start your application for testing
         wait-on: 'http://localhost:3000'  # Wait until the application is available
         record-key: ${{ secrets.CYPRESS_RECORD_KEY }}  # Cloud record key stored in GitHub Secrets
+
